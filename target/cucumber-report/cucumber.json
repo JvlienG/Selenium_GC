@@ -1,0 +1,74 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-10T09:24:22.855Z",
+        "line": 4,
+        "name": "Select the first article on the research page",
+        "description": "",
+        "id": "as-user-i-want-to-select-an-article-after-research;select-the-first-article-on-the-research-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8858000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on result page",
+            "match": {
+              "location": "fr.zenity.stepDefinitions.SelectArticleStep.\u003cinit\u003e(SelectArticleStep.java:10)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1757000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user select the first article on the page",
+            "match": {
+              "location": "fr.zenity.stepDefinitions.SelectArticleStep.\u003cinit\u003e(SelectArticleStep.java:16)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "he should be on the article page",
+            "match": {
+              "location": "fr.zenity.stepDefinitions.SelectArticleStep.\u003cinit\u003e(SelectArticleStep.java:20)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Select"
+          }
+        ]
+      }
+    ],
+    "name": "As user I want to select an article after research",
+    "description": "",
+    "id": "as-user-i-want-to-select-an-article-after-research",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/selectArticle.feature",
+    "tags": [
+      {
+        "name": "@Select",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
